@@ -1,10 +1,8 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-
-import Grid from '@mui/material/Grid'; 
-
 import React, { Component } from 'react'
 import axios from 'axios'
+import Index from '@/components/Home'
 
 export default function Home() {
   
@@ -17,6 +15,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Index />
 
 
 

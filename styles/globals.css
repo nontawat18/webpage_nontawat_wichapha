@@ -1,7 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html {
+    font-family: 'Montserrat', 'sans-serif';
+}
 
-html{
-  font-family: 'Montserrat', 'sans-serif' ;
+.text-italic {
+    font-family: "Montserrat";
+    font-style: italic;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+.text-italic-color {
+    font-family: "Montserrat";
+    color: #0c89ef;
+    font-size: 25px;
+}
+
+.grid {
+    padding: 25;
+    margin-top: 1000;
+}
+
+.head {
+    font-family: "Montserrat";
+    font-size: 96px;
+}
+
+.head-color {
+    font-family: "Montserrat";
+    font-size: 96px;
+    color: #0c89ef;
 }
