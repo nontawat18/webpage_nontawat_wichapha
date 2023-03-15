@@ -69,7 +69,7 @@ const Navbar = () => {
             variant="h6"
             noWrap
             component="a"
-            href=""
+            href="/"
             sx={{
               mr: 2,
               display: { xs: "flex", md: "none" },
@@ -88,8 +88,8 @@ const Navbar = () => {
               height={90}
             />
           </Typography>
-          <h1 className="text-italic">REGION</h1>
-          <h1 className="text-italic-color">MAP</h1>
+          <h1 className="text-italic">MAP</h1>
+          <h1 className="text-italic-color">View</h1>
           
         </Toolbar>
       </Container>
