@@ -88,8 +88,8 @@ const Navbar = () => {
               height={90}
             />
           </Typography>
-          <h1 class="text-italic">REGION</h1>
-          <h1 class="text-italic-color">MAP</h1>
+          <h1 className="text-italic">REGION</h1>
+          <h1 className="text-italic-color">MAP</h1>
           
         </Toolbar>
       </Container>

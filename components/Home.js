@@ -12,8 +12,8 @@ const Home = () => {
         <Grid container spacing={2}>
           <Grid item xs={12} className="text-center" md={6}>
             <div style={{ padding: 25, marginTop: 70 }}>
-              <h1 class="head">REGION</h1>
-              <h1 class="head-color">MAP</h1>
+              <h1 className="head">REGION</h1>
+              <h1 className="head-color">MAP</h1>
               <h1>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Facilis similique laudantium, perspiciatis doloremque nesciunt

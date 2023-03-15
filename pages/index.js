@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import React, { Component } from 'react'
-import axios from 'axios'
 import Index from '@/components/Home'
 
 export default function Home() {
